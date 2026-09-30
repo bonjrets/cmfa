@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: bonjrets
+  - name: AKUN1
     server: dnuziifot7vvr.cloudfront.net
     port: 443
     type: trojan
