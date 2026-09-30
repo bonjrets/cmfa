@@ -32,19 +32,18 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: AKUN1
-    server: 104.17.3.81
-    type: vless
+  - name: bonjrets
+    server: dnuziifot7vvr.cloudfront.net
     port: 443
-    uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-    tls: true
+    type: trojan
+    password: e7466642-a2c7-4791-873b-5255f841db11
     skip-cert-verify: true
-    servername: bonjert.bonjert86.workers.dev
+    sni: dnuziifot7vvr.cloudfront.net
     network: ws
     ws-opts:
-      path: /36.95.152.58-12137
+      path: /trojan
       headers:
-        Host: bonjert.bonjert86.workers.dev
+        Host: dnuziifot7vvr.cloudfront.net
     udp: true
   - name: AKUN2
     server: 104.17.3.81
